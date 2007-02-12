@@ -2,7 +2,7 @@
 %define		module	PalmDB
 
 Summary:	Pure Python library to read/write/modify Palm PDB and PRC format databases
-Summary(pl):	Czysto pythonowa biblioteka do odczytu/zapisu/modyfikowania palmowych baz PDB i PRC
+Summary(pl.UTF-8):   Czysto pythonowa biblioteka do odczytu/zapisu/modyfikowania palmowych baz PDB i PRC
 Name:		python-%{module}
 Version:	1.4.1
 Release:	1
@@ -27,15 +27,15 @@ This code is based on code from the Pyrite Project. However the code
 has been modified so extensively it's hardly recognizable. But without
 the Pyrite code, PalmDB would not be here today.
 
-%description -l pl
-Ten modu³ umo¿liwia dostêp do plików baz danych PalmOS(TM) z poziomu
-czystego Pythona. Jest tak prosty jak to tylko mo¿liwe nie bêd±c
-(miejmy nadziejê) zbyt prostym. U¿yto jak najwiêcej pythonowych
-idiomów, aby uczyniæ go ³atwiejszym w u¿yciu i bardziej elastycznym.
+%description -l pl.UTF-8
+Ten moduÅ‚ umoÅ¼liwia dostÄ™p do plikÃ³w baz danych PalmOS(TM) z poziomu
+czystego Pythona. Jest tak prosty jak to tylko moÅ¼liwe nie bÄ™dÄ…c
+(miejmy nadziejÄ™) zbyt prostym. UÅ¼yto jak najwiÄ™cej pythonowych
+idiomÃ³w, aby uczyniÄ‡ go Å‚atwiejszym w uÅ¼yciu i bardziej elastycznym.
 
-Ten kod jest oparty na kodzie z projektu Pyrite. Jednak kod zosta³ na
-tyle zmieniony, ¿e jest trudno rozpoznawalny. Lecz bez kodu Pyrite
-PalmDB nie zaszed³by jeszcze tak daleko.
+Ten kod jest oparty na kodzie z projektu Pyrite. Jednak kod zostaÅ‚ na
+tyle zmieniony, Å¼e jest trudno rozpoznawalny. Lecz bez kodu Pyrite
+PalmDB nie zaszedÅ‚by jeszcze tak daleko.
 
 %prep
 %setup -q -n %{module}-%{version}
