@@ -2,7 +2,7 @@
 %define		module	PalmDB
 
 Summary:	Pure Python library to read/write/modify Palm PDB and PRC format databases
-Summary(pl.UTF-8):   Czysto pythonowa biblioteka do odczytu/zapisu/modyfikowania palmowych baz PDB i PRC
+Summary(pl.UTF-8):	Czysto pythonowa biblioteka do odczytu/zapisu/modyfikowania palmowych baz PDB i PRC
 Name:		python-%{module}
 Version:	1.4.1
 Release:	1
