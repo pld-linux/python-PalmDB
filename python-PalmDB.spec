@@ -14,6 +14,7 @@ URL:		http://id3-py.sourceforge.net/
 BuildRequires:	python
 BuildRequires:	python-devel >= 1:2.3
 BuildRequires:	rpm-pythonprov
+BuildRequires:	unzip
 %pyrequires_eq	python-modules
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
