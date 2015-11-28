@@ -5,7 +5,7 @@ Summary:	Pure Python library to read/write/modify Palm PDB and PRC format databa
 Summary(pl.UTF-8):	Czysto pythonowa biblioteka do odczytu/zapisu/modyfikowania palmowych baz PDB i PRC
 Name:		python-%{module}
 Version:	1.4.1
-Release:	3
+Release:	4
 License:	GNU
 Group:		Development/Languages/Python
 Source0:	http://dl.sourceforge.net/pythonpalmdb/%{module}-%{version}.zip
