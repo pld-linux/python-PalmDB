@@ -42,17 +42,13 @@ PalmDB nie zaszedłby jeszcze tak daleko.
 %setup -q -n %{module}-%{version}
 
 %build
-CFLAGS="%{rpmcflags}"
-export CFLAGS
-python setup.py build
+%py_build
 
 %install
 rm -rf $RPM_BUILD_ROOT
 install -d $RPM_BUILD_ROOT%{py_sitedir}
 
-python setup.py install \
-	--root=$RPM_BUILD_ROOT \
-	--optimize=2
+%py_install
 
 rm -f $RPM_BUILD_ROOT%{py_sitescriptdir}/*.py
 
