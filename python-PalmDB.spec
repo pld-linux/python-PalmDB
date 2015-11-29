@@ -11,6 +11,7 @@ Group:		Development/Languages/Python
 Source0:	http://dl.sourceforge.net/pythonpalmdb/%{module}-%{version}.zip
 # Source0-md5:	c7414dcef1b5b24e79da97ce883aa44b
 URL:		http://id3-py.sourceforge.net/
+BuildRequires:	rpmbuild(macros) >= 1.710
 BuildRequires:	python
 BuildRequires:	python-devel >= 1:2.3
 BuildRequires:	rpm-pythonprov
